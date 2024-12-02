@@ -30,7 +30,7 @@ def calculate_similarity(left: List[int], right: List[int]):
 
 
 def main():
-    with open("input.txt") as f:
+    with open("day-01/input.txt") as f:
         lines = f.readlines()
     cleaned_lines = [line.strip().split() for line in lines]
     left = [int(line[0]) for line in cleaned_lines]
